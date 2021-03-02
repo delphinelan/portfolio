@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>email</title>
+    <g id="email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#383838" stroke-width="2" x="6.33333333" y="9" width="18.2" height="13" rx="2"></rect>
+        <path d="M7.67417968,9 L22.5926783,9 C23.144963,9 23.5926783,9.44771525 23.5926783,10 C23.5926783,10.3004004 23.4576335,10.584887 23.2248828,10.7748015 L16.79002,16.0253712 C16.0861329,16.5997126 15.0835698,16.6274941 14.3489568,16.0930143 L7.08585263,10.8086231 C6.63926244,10.483699 6.54063255,9.85826314 6.86555661,9.41167295 C7.05374411,9.1530196 7.35431082,9 7.67417968,9 Z" id="Rectangle" stroke="#383838" stroke-width="2"></path>
+    </g>
+</svg>
