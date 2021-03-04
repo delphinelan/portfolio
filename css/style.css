@@ -474,6 +474,20 @@ hr{
 	margin: 0 auto;
 	display: inline-block;
 }
+.w-300{
+	width: 45%;
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 1%;
+	display: inline-block;
+}
+.w-150{
+	width: 30%;
+	min-width: 150px;
+	margin: 0 auto;
+	padding: 1%;
+	display: inline-block;
+}
 /*shineflip book*/
 .book{
 	width: 100%;
