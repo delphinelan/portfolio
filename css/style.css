@@ -226,6 +226,7 @@ hr{
 	color: #383838;
 	max-width: 650px;
 	margin: 0 auto;
+	padding: 0 10px;
 }
 #KV button{
 	color: #383838;
@@ -255,7 +256,7 @@ hr{
 	font-size: 16px;
 	color: #2F3D4E;
 	background-color: #E6EBF1;
-	width: 160px;
+	width: 170px;
 	padding: 5px;
 	border-radius: 20px;
 }
