@@ -226,7 +226,7 @@ hr{
 	color: #383838;
 	max-width: 650px;
 	margin: 0 auto;
-	padding: 0 10px;
+	padding: 0 30px;
 }
 #KV button{
 	color: #383838;
@@ -252,13 +252,18 @@ hr{
 	display: block;
 	margin: 0 auto;
 }
-#KV .btn_box{
+#KV .btn_box a{
 	font-size: 16px;
 	color: #2F3D4E;
 	background-color: #E6EBF1;
 	width: 170px;
 	padding: 5px;
 	border-radius: 20px;
+	margin: 0 auto;
+}
+#KV .btn_box{
+	display: block;
+	width: 100%;
 }
 
 /*arrow 動畫*/
@@ -502,6 +507,10 @@ hr{
 	width: 105%;
 	height: 500px;
 	overflow: hidden;
+}
+#KV .btn_box{
+	width: 160px;
+	display: inline-block;
 }
 }
 
