@@ -98,6 +98,9 @@ hr{
 	text-align: center;
 	vertical-align: middle;
 }
+.mark-pen {
+	background-image: linear-gradient(transparent 50%, rgba(255, 247, 162, 0.5) 50%)
+}
 
 /*bootstrap*/
 .col-md-5{
@@ -458,6 +461,15 @@ hr{
 	color: #3E3A39;
 	/*font-weight: bold;*/
 	font-size: 20px;
+}
+.s_title_l{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color: #3E3A39;
+	text-align: left;
+	font-size: 18px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
 .title_scribe{
 	color: #000;
