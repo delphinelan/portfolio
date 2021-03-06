@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="Delphine Lan's portfolio, Delphine Lan is a Taiwan based multidisciplinary designer specialising in UI Design, UX Design, Graphic Design, and Digital Design." class="next-head"/>
-<meta name="keywords" content="UI Design, UX Design, Graphic Design, Digital Design" class="next-head"/>
+<meta name="keywords" content="UI Design, UX Design, Graphic Design, and Digital Design" class="next-head"/>
 <meta property="og:title" content="Portfolio: Delphine-lan">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Delphine-Lan">
@@ -29,14 +29,17 @@
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item d_none">
+      <!--<li class="nav-item d_none">
         <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-      </li>
+      </li>-->
       <li class="nav-item d_none">
         <a class="nav-link" href="#skill">SKILLS<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item d_none">
         <a class="nav-link" href="#aboutme">ABOUT</a>
+      </li>
+      <li class="nav-item d_none">
+        <a class="nav-link" href="#profile">PROFILE</a>
       </li>
       <div class="mobile_meanu">
         <li>
@@ -237,6 +240,30 @@
           }, false);
       });
   }
+</script>
+<script>
+  $(document).ready(function () {
+  
+  'use strict';
+  
+   var c, currentScrollTop = 0,
+       navbar = $('nav');
+
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+     
+      currentScrollTop = a;
+     
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollUp");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+      }
+      c = currentScrollTop;
+  });
+  
+});
 </script>
 <script src="js/script.js"></script>
 </body>

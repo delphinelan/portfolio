@@ -64,7 +64,7 @@
 <div id="webdesign" class="container">
     <h2 class="title top-25">iRoo</h2>
     <hr>
-    <p class="title_scribe w-900 bottom-25">In 2019, I was approached by iRoo to create a package of digital marketing design templates, which included website and social content assets. iRoo is a contemporary ready-to-wear label based in Taiwan. Its elegant design detail has made its way onto various luxury online retail websites and Physical storefronts.</p>
+    <p class="title_scribe w-900 bottom-25">In 2019, I was approached by iRoo to create a package of digital marketing design templates, which included website and social content assets. iRoo is a contemporary ready-to-wear label based in Taiwan that aims to offer a minimalist wardrobe. Its elegant design detail has made its way onto various luxury online retail websites and Physical storefronts.</p>
     <img class="img-fluid w-900 bottom-70" src="img/iroo.png" alt="">
     <p>Copyright © iRoo</p>
     <a class="bottom-25 top-25 font-darkgray" href="visual.html" target="blank">Back to Visual ></a>
@@ -90,6 +90,30 @@
           }, false);
       });
   }
+</script>
+<script>
+  $(document).ready(function () {
+  
+  'use strict';
+  
+   var c, currentScrollTop = 0,
+       navbar = $('nav');
+
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+     
+      currentScrollTop = a;
+     
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollUp");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+      }
+      c = currentScrollTop;
+  });
+  
+});
 </script>
 <script src="js/script.js"></script>
 </body>
