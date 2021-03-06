@@ -126,6 +126,12 @@ hr{
 }
 
 /*navbar*/
+nav{
+	transition: all 0.5s;
+}
+nav.scrollUp {
+	transform: translateY(-80px);
+  }
 .navbar, .navbar-brand, .navbar-brand:hover, .navbar-nav a{
 	font-size: 14px;
 	color: #1E2128;
