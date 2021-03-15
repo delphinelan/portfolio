@@ -521,6 +521,11 @@ nav.scrollUp {
 	padding: 1%;
 	display: inline-block;
 }
+.w-100max{
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+}
 /*shineflip book*/
 .book{
 	width: 100%;
