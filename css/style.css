@@ -492,8 +492,8 @@ nav.scrollUp {
 	margin: 10px;
 }
 .w-900{
-	width: 90%;
-	max-width: 900px;
+	width: 100%;
+	max-width: 1440px;
 	margin: 0 auto;
 	display: inline-block;
 }
