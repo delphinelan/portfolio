@@ -2,7 +2,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	min-height: 100%;
-	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體', sans-serif;
+	font-family: Helvetica, Arial, '微軟正黑體', 'LiHei Pro', sans-serif;
 	font-weight: normal;
 }
 
@@ -364,6 +364,7 @@ nav.scrollUp {
 	bottom: 30px;
 }
 .right{
+	font-size: 24px;
 	display: inline-block;
 	right: 30px;
 	float: right;
@@ -590,6 +591,7 @@ nav.scrollUp {
 	left: 30px;
 }
 .right{
+	font-size: 18px;
 	right: 30px;
 }
 /*arrow page*/
