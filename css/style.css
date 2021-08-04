@@ -359,6 +359,7 @@ nav.scrollUp {
 	display: inline-block;
 } 
 .left{
+	font-size: 24px;
 	display: inline-block;
 	left: 30px;
 	bottom: 30px;
@@ -588,6 +589,7 @@ nav.scrollUp {
 	display: block;
 } 
 .left{
+	font-size: 18px;
 	left: 30px;
 }
 .right{
