@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:title" content="Portfolio: Delphine-lan">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Delphine-Lan">
+<meta property="og:image" content="img/KV.png">
+<link rel="icon" href="img/D_logo.png" type="image/x-icon" />
+<link rel="shortcut icon" href="img/D_logo.png" type="image/x-icon" />
+<link rel="canonical" href="index.html">
+<title>	DELPHINE LAN | PORTFOLIO</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- Style -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<!-- Common header-->
+<script src="js/header.js"></script>
+<!-- Common header end-->
+
+<div id="webdesign" class="container">
+    <h2 class="title top-25">Invesco</h2>
+    <hr>
+    <p class="title_scribe w-900 bottom-25">RWD Campaign Gage<br>
+        The entire event page is based on Van Gogh's The Starry Night.<br>
+        I designed the key visual and used html and css to complete them.</p>
+    <a class="bottom-25" href="https://campaign.cnyes.com/topics/invescoGIGC/" target="blank">link to web →</a>
+    <img class="img-fluid w-900" src="img/invesco1@2x.png" alt="">
+    <img class="img-fluid w-900" src="img/invesco2@2x.png" alt="">
+    <img class="img-fluid w-900" src="img/invesco3@2x.png" alt="">
+    <img class="img-fluid w-900" src="img/invesco4@2x.png" alt="">
+    <!--<img class="img-fluid w-800 bottom-70" src="img/Invesco_pic1.gif" alt="">-->
+    <p>Copyright © Invesco</p>
+    <a class="bottom-25 top-25 font-darkgray" href="visual.html">Back to Visual ></a>
+</div>
+
+<!--page-->
+<a class="line-arrow left font-darkgray" href="visual_crypto_landingpage.html"><img src="img/arr_left.png"> Previous</a>
+<a class="line-arrow right font-darkgray" href="visual_Delphine.html">Next <img src="img/arr_right.png"></a>
+
+
+<!-- Bootstrap -->
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+  var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+  var hamburgers = document.querySelectorAll(".hamburger");
+  if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+          hamburger.addEventListener("click", function() {
+            this.classList.toggle("is-active");
+          }, false);
+      });
+  }
+</script>
+<script>
+  $(document).ready(function () {
+  
+  'use strict';
+  
+   var c, currentScrollTop = 0,
+       navbar = $('nav');
+
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+     
+      currentScrollTop = a;
+     
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollUp");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+      }
+      c = currentScrollTop;
+  });
+  
+});
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
