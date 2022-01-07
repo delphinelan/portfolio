@@ -1,7 +1,7 @@
 header ='<!-- Header-->\
 <nav class="navbar navbar-expand-lg fixed-top">\
   <a class="navbar-brand" href="index.html">	<!--DELPHINE LAN | PORTFOLIO-->\
-    <img src="img/logo_D.svg" width="50" height="50" alt=""/> </a>\
+    <img src="img/logo_D.svg" height="50" alt=""/> </a>\
   <button class="hamburger hamburger--collapse" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">\
     <span class="hamburger-box"> <span class="hamburger-inner"></span> </span>\
   </button>\
