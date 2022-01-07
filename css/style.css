@@ -33,7 +33,7 @@ h2{
 }
 h3{
 	color: #2F3D4E;
-	font-size: 34px;
+	font-size: 30px;
 	font-style: italic;
 }
 h4{
@@ -117,7 +117,7 @@ hr{
 	vertical-align: top;
 	margin: 20px 0;
 }
-.col-md-9{
+.col-md-9, .col-md-10{
 	margin:0 auto;
 }
 .container{
@@ -218,6 +218,14 @@ nav.scrollUp {
 	vertical-align: middle;
 	color: #1E2128;
 	padding:120px 0 0 0;
+	position: relative;
+}
+#KV .inner{
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 .img-kv{
 	width: 90%;
@@ -234,11 +242,17 @@ nav.scrollUp {
 	height: auto;
 }
 #KV p{
-	font-size: 16px;
+	font-size: 18px;
 	color: #383838;
-	max-width: 650px;
 	margin: 0 auto;
 	padding: 0 30px;
+}
+#KV b{
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 1.2em;
+	display: block;
+	margin: 24px 0;
 }
 #KV button{
 	color: #383838;
@@ -442,10 +456,19 @@ nav.scrollUp {
 #aboutme p{
 	font-size: 14px;
 	line-height: 22px;
+	padding: 0;
+}
+#aboutme a{
+	color: #5991D3;
+	display: inline;
 }
 .about_me{
 	text-align: left;
 	padding-left: 4%;
+}
+#aboutme .col-md-5{
+	height: 250px;
+	overflow: hidden;
 }
 .img-about{
 	transform: translateY(-5%);
@@ -550,6 +573,12 @@ nav.scrollUp {
 }
 
 @media (min-width:768px){
+#KV p{
+	font-size: 24px;
+}
+#KV b{
+	font-size: 40px;
+}
 .col-md-4{
 	width: 30%;
 }
@@ -557,9 +586,7 @@ nav.scrollUp {
 	height: 100%;
 }
 .img-about{
-	width: auto;
-	height: 100%;
-	transform: translateX(-30%);
+	transform: translateY(-10%);
 }
 .book{
 	margin: 0 auto 20px -5%;
@@ -585,8 +612,9 @@ nav.scrollUp {
 	height: 650px;
 	overflow: hidden;
 }
-#KV{
-	min-height: 800px;
+#aboutme .col-md-5{
+	height: 250px;
+	overflow: hidden;
 }
 /*arrow page*/
 .line-arrow{
