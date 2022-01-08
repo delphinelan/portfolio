@@ -8,7 +8,7 @@ header ='<!-- Header-->\
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">\
     <ul class="navbar-nav">\
       <li class="nav-item d_none">\
-        <a class="nav-link" href="UI.html">UI</a>\
+        <a class="nav-link" href="index.html">UI / UX</a>\
       </li>\
       <li class="nav-item d_none">\
         <a class="nav-link" href="visual.html">VISUAL</a>\
@@ -17,14 +17,14 @@ header ='<!-- Header-->\
         <a class="nav-link" href="video.html">VIDEO</a>\
       </li>\
       <li class="nav-item d_none">\
-        <a class="nav-link" href="index.html">ABOUT ME</a>\
+        <a class="nav-link" href="about.html">ABOUT</a>\
       </li>\
       <div class="mobile_meanu">\
         <li>\
-          <a class="nav-link" href="index.html">ABOUT</a>\
+          <a class="nav-link" href="about.html">ABOUT</a>\
         </li>\
         <li>\
-          <a class="nav-link" href="UI.html">UI</a>\
+          <a class="nav-link" href="index.html">UI / UX</a>\
         </li>\
         <li>\
           <a class="nav-link" href="visual.html">VISUAL</a>\
