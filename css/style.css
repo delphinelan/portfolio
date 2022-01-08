@@ -57,6 +57,7 @@ p{
 }
 hr{
 	width: 70px;
+	margin-bottom: 60px;
 }
 .font-normal{
 	color: #3E3A39;
@@ -115,7 +116,7 @@ hr{
 	vertical-align: text-top;
 }
 .col-md-4{
-	width:80%;
+	width:96%;
 	display: inline-block;
 	vertical-align: top;
 	margin: 20px 0;
@@ -126,6 +127,7 @@ hr{
 .container{
 	text-align: center;
 	padding: 40px 0;
+	max-width: 1440px;
 }
 
 /*navbar*/
@@ -215,31 +217,38 @@ nav.scrollUp {
 #KV{
 	/**background:linear-gradient( #ffffff, #F6F8FC);**/
 	background-color: #ffffff;
-	height: 100vh !important;
+	/*height: 100vh !important;*/
+	height: 450px;
 	text-align: center;
 	vertical-align: middle;
 	color: #1E2128;
-	padding:120px 0 0 0;
+	padding:200px 0 0 0;
 	position: relative;
 }
-#KV .inner{
+/*.inner{
 	width: 100%;
 	display: block;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-}
+}*/
 .img-kv{
 	width: 90%;
 	max-width: 700px;
 	height: auto;
 	margin:0 auto;
 }
-#KV li{
+.bottom-info{
+	border-top: 2px solid #2F3D4E;
+	width: 94%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+#KV li, .bottom-info li{
 	display: inline-block;
 	margin: 10px;
 }
-#KV li img{
+#KV li img, .bottom-info li img{
 	width: 30px;
 	height: auto;
 }
@@ -398,7 +407,7 @@ nav.scrollUp {
 #pic-banner{
 	position: relative;
 	padding: 0;
-	margin: 1%;
+	margin: 2px;
     /*background-color: #ccc;*/
     overflow: hidden;
 	display: inline-block;
@@ -474,9 +483,6 @@ nav.scrollUp {
 	height: auto;
 }
 /*webdesign*/
-#webdesign{
-	margin-top: 50px;
-}
 #webdesign button{
 	border-radius: 50px;
 	padding: 0px 15px;
@@ -489,7 +495,10 @@ nav.scrollUp {
 }
 .title{
 	color: #1E2128;
-	font-weight: bolder;
+	font-weight: 600;
+	line-height: 52px;
+	max-width: 1000px;
+	margin: 80px auto 0px auto;
 }
 .s_title{
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -609,7 +618,7 @@ nav.scrollUp {
 .mobile_meanu{display: none;}
 .hamburger{display: none;}
 .col-md-4{
-	width: 27%;
+	width: 32%;
 }
 .book{
 	margin: 0 auto 20px -25%;
