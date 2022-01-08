@@ -74,7 +74,7 @@ hr{
 	color: #383838;;
 }
 .font-gray{
-	color: #848D97;
+	color: #7C8DA1;
 }
 .font-white{
 	color: #fff;
@@ -93,6 +93,9 @@ hr{
 }
 .bottom-70{
 	padding-bottom:70px;
+}
+.top-16{
+	margin-top: 16px;
 }
 .center-text{
 	text-align: center;
@@ -453,8 +456,8 @@ nav.scrollUp {
 	background-color: rgb(255,255,255, 0.93);
 }
 #aboutme p{
-	font-size: 14px;
-	line-height: 22px;
+	font-size: 15px;
+	line-height: 27px;
 	padding: 0;
 }
 #aboutme a{
@@ -464,10 +467,6 @@ nav.scrollUp {
 .about_me{
 	text-align: left;
 	padding-left: 4%;
-}
-#aboutme .col-md-5{
-	height: 250px;
-	overflow: hidden;
 }
 .img-about{
 	transform: translateY(-5%);
@@ -584,9 +583,6 @@ nav.scrollUp {
 .col-md-5{
 	height: 100%;
 }
-.img-about{
-	transform: translateY(-10%);
-}
 .book{
 	margin: 0 auto 20px -5%;
 	width: 105%;
@@ -596,6 +592,16 @@ nav.scrollUp {
 #KV .btn_box{
 	width: 160px;
 	display: inline-block;
+}
+#aboutme .col-md-5{
+	height: 450px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.img-about{
+	width: auto;
+	height: 100%;
+	transform: translateX(-25%);
 }
 }
 
@@ -612,8 +618,13 @@ nav.scrollUp {
 	overflow: hidden;
 }
 #aboutme .col-md-5{
-	height: 250px;
+	height: 350px;
 	overflow: hidden;
+}
+.img-about{
+	width: 100%;
+	height: auto;
+	transform: translateX(0%);
 }
 /*arrow page*/
 .line-arrow{
