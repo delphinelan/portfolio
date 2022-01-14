@@ -29,8 +29,7 @@
     <p class="title_scribe w-900 bottom-25">UI design for App.</p>
     <img class="img-fluid w-900 bottom-25" src="img/mp_app1@2x.png" alt="">
     <p class="title_scribe w-900 bottom-25">這一項專案是以理財為主的的自媒體社群平台，讀者可以透過一面牆及個人化功能關注一天的大小事；對創作者而言更是一個結合業界獨家編輯器、多媒體功能。我主要的工作是UI介面設計及前期與PM討論storyboard和功能設定，
-        並且規劃互動流程。整個內容含了動態牆、貼文互動機制、文章編輯器、賞金制度...等等。並與工程師和PM討論功能可行性與否，並依討論在做優化調整。</p>
-
+      並且規劃互動流程。整個內容含了動態牆、貼文互動機制、文章編輯器、賞金制度...等等。並與工程師和PM討論功能可行性與否，並依討論在做優化調整。</p>
     <img class="img-fluid w-900" src="img/mp_app3@2x.png" alt="">
     <img class="img-fluid w-900" src="img/mp_app4@2x.png" alt="">
     <img class="img-fluid w-900" src="img/mp_app5@2x.png" alt="">
@@ -85,7 +84,27 @@
     });
     
   });
-  </script>
+</script>
+<script language=JavaScript>
+  function password() { 
+  var testV = 1; 
+  var pass1 = prompt('请输入密码:',''); 
+  while (testV < 3) { 
+  if (!pass1) 
+  history.go(-1); 
+  if (pass1 == "delphine") { 
+  alert('密码正确!'); 
+  break; 
+  } 
+  testV+=-1; 
+  var pass1 = prompt('密码错误!请重新输入:'); 
+  } 
+  if (pass1!="password" & testV ==3) 
+  history.go(-1); 
+  return " "; 
+  } 
+  document.write(password()); 
+</script>
 <script src="js/script.js"></script>
 </body>
 </html>
