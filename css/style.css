@@ -123,6 +123,13 @@ hr{
 	margin-top: 8px;
 	display: block;
 }
+.orangebar{
+	background-color: #FDD9A0;
+	width: 70px;
+	height: 5px;
+	margin-top: 8px;
+	display: block;
+}
 
 /*bootstrap*/
 .col-md-5{
