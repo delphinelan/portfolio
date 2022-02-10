@@ -67,7 +67,7 @@
     </p>
     <img class="img-fluid w-900 bottom-70" src="img/mp_app10@2x.png" alt="">
 
-    <a class="bottom-25 top-25 font-darkgray" href="UI.html">Back to UI/UX ></a>
+    <a class="bottom-25 top-25 font-darkgray" href="UI.html">Back to UI ></a>
 </div>
 
 <!--page-->
@@ -116,23 +116,12 @@
   });
 </script>
 <script language=JavaScript>
-  function password() { 
-  var testV = 1; 
-  var pass1 = prompt('请输入密码:',''); 
-  while (testV < 3) { 
-  if (!pass1) 
-  history.go(-1); 
-  if (pass1 == "delphine") { 
-  alert('密码正确!'); 
-  break; 
-  } 
-  testV+=-1; 
-  var pass1 = prompt('密码错误!请重新输入:'); 
-  } 
-  if (pass1!="password" & testV ==3) 
-  history.go(-1); 
-  return " "; 
-  } 
+  const USER_PWD = 'delphine';
+const password = prompt('輸入密碼');
+
+if (password !== USER_PWD) {
+ window.history.go(-1)
+}
   document.write(password()); 
 </script>
 <script src="js/script.js"></script>
