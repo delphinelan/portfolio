@@ -14,9 +14,6 @@ header ='<!-- Header-->\
         <a class="nav-link" href="visual.html">VISUAL</a>\
       </li>\
       <li class="nav-item d_none">\
-        <a class="nav-link" href="video.html">VIDEO</a>\
-      </li>\
-      <li class="nav-item d_none">\
         <a class="nav-link" href="about.html">ABOUT</a>\
       </li>\
       <div class="mobile_meanu">\
