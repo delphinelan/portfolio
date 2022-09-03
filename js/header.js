@@ -26,12 +26,10 @@ header ='<!-- Header-->\
         <li>\
           <a class="nav-link" href="visual.html">VISUAL</a>\
         </li>\
-        <li>\
-          <a class="nav-link" href="video.html">VIDEO</a>\
-        </li>\
         <li class="icon_menu">\
           <a href="https://codepen.io/DelphineLan/" target="_blank"><img src="img/icon_codepen.svg" width="30" height="30"></a>\
           <a href="https://tw.linkedin.com/in/delphine-lan-756b11b9" target="_blank"><img src="img/icon_linkedin.svg" width="30" height="30"></a>\
+          <a href="https://www.instagram.com/delphine_painting/" target="_blank"><img src="img/icon_ig.svg" width="30" height="30"></a>\
           <a href="mailto:sun7722blue@hotmail.com" target="_blank"><img src="img/icon_email.svg" width="30" height="30"></a>\
           <a href="Delphine_CV.pdf" target="_blank"><img src="img/icon_cv.svg" width="30" height="30"></a></li>\
       </div>\
