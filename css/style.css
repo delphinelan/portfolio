@@ -91,6 +91,12 @@ hr{
 .font-red{
 	color: #E03F19;
 }
+.font-green{
+	color: #008C15;
+}
+.font-sub-green{
+	color: #76B793;
+}
 .top-25{
 	margin-top: 25px;
 }
@@ -128,6 +134,13 @@ hr{
 }
 .orangebar{
 	background-color: #FDD9A0;
+	width: 70px;
+	height: 5px;
+	margin-top: 8px;
+	display: block;
+}
+.greenbar{
+	background-color: #E8F5EB;
 	width: 70px;
 	height: 5px;
 	margin-top: 8px;
