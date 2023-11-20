@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:title" content="Portfolio: Delphine-lan">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Delphine-Lan">
+<meta property="og:image" content="img/KV.png">
+<link rel="icon" href="img/D_logo.png" type="image/x-icon" />
+<link rel="shortcut icon" href="img/D_logo.png" type="image/x-icon" />
+<link rel="canonical" href="index.html">
+<title>	DELPHINE LAN | PORTFOLIO</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- Style -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<!-- Common header-->
+<script src="js/header.js"></script>
+<!-- Common header end-->
+
+<div id="webdesign" class="container">
+    <h2 class="title top-25">uTagGo Website</h2>
+    <p class="w-800">Project: Parking Lot</p>
+    <hr>
+    <p class="w-800 bottom-25">UI/UX design, RWD web design</p>
+    <p class="title_scribe w-800 bottom-25">uTagGo is an platform that integrate various services for drivers. Drivers can enter and exit the parking lot quickly by eTag , and automatically withhold payment.<br>
+      uTagGo parking lot website contains all of parking infomations include maps, rates, real-time spaces and popular hours in Taiwan. Let users  can find the best parking lot at their destination quickly and solve parking problems!</p>
+    <a href="https://www.utaggo.com.tw/parking-lot" target="blank">View Product on web</a></p>
+
+    <img class="img-fluid w-900 bottom-70" src="img/utaggo_parkinglot_1.png" alt="">
+
+    <h6 class="w-900 bottom-25 font-green">My role<span class="greenbar"></span></h6>
+    <p class="w-900 bottom-70 left-text">My responsibility of this product starting from initial concept design, feature roadmap, user flow, visual design, prototyping, delivering high-fidelity mockups and communicate to developers.<br>
+      ▪ Develop project guideline specifications.<br>
+      ▪ Plan and design the user interface of parking lot website.<br>
+      ▪ Present to PM and RD the concept of design.<br>
+      ▪ Conduct user interview.
+    </p>
+
+    <h6 class="w-900 bottom-25 font-green">User Interview<span class="greenbar"></span></h6>
+    <p class="w-900 bottom-5 left-text">We optimize the original parking page to increase the SEO of the website. Upon this I conducted interviews with driver and try to find the pain points.</p>
+    <img class="img-fluid w-900 bottom-70" src="img/utaggo_parkinglot_2.png" alt="">
+
+    <h6 class="w-900 bottom-25 font-green">SiteMap & Wireframe<span class="greenbar"></span></h6>
+    <p class="w-900 bottom-5 left-text">Based on the information from competitive research and user interviews, I setted up the structural and process of the parking lot website.</p>
+    <img class="img-fluid w-900 bottom-70" src="img/utaggo_parkinglot_3.png" alt="">
+    <p class="w-900 bottom-70"><img class="img-fluid w-300 bottom-70" src="img/utaggo_parkinglot_4.png" alt="">
+      <img class="img-fluid w-300 bottom-70 " src="img/utaggo_parkinglot_5.png" alt="">
+    </p>
+
+    <h6 class="w-900 bottom-25 font-green">User Interface<span class="greenbar"></span></h6>
+    <img class="img-fluid w-900" src="img/utaggo_parkinglot_6.png" alt="">
+    <img class="img-fluid w-900" src="img/utaggo_parkinglot_7.png" alt="">
+    <img class="img-fluid w-900 bottom-70" src="img/utaggo_parkinglot_8.png" alt="">
+
+    <p class="font-gray w-900 left-text bottom-70">Tools : Figma</p>
+
+    <a class="bottom-25 top-25 font-darkgray" href="index.html">Back to UI / UX ></a>
+</div>
+
+<!--page-->
+<a class="line-arrow left font-darkgray" href="UI_amcwebsite.html"><img src="img/arr_left.png"> Previous</a>
+<a class="line-arrow right font-darkgray" href="UI_GoGan.html">Next <img src="img/arr_right.png"></a>
+
+
+<!-- Bootstrap -->
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+  var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+  var hamburgers = document.querySelectorAll(".hamburger");
+  if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+          hamburger.addEventListener("click", function() {
+            this.classList.toggle("is-active");
+          }, false);
+      });
+  }
+</script>
+<script>
+    $(document).ready(function () {
+    
+    'use strict';
+    
+     var c, currentScrollTop = 0,
+         navbar = $('nav');
+  
+     $(window).scroll(function () {
+        var a = $(window).scrollTop();
+        var b = navbar.height();
+       
+        currentScrollTop = a;
+       
+        if (c < currentScrollTop && a > b + b) {
+          navbar.addClass("scrollUp");
+        } else if (c > currentScrollTop && !(a <= b)) {
+          navbar.removeClass("scrollUp");
+        }
+        c = currentScrollTop;
+    });
+    
+  });
+</script>
+<!--<script language=JavaScript>
+  const USER_PWD = 'delphine';
+const password = prompt('輸入密碼');
+
+if (password !== USER_PWD) {
+ window.history.go(-1)
+}
+  document.write(password()); 
+</script>-->
+<script src="js/script.js"></script>
+</body>
+</html>
