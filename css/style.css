@@ -645,7 +645,7 @@ nav.scrollUp {
 	display: inline-block;
 }
 #aboutme .col-md-5{
-	height: 450px;
+	height: auto;
 	overflow: hidden;
 	margin-bottom: 20px;
 }
