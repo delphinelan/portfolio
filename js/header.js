@@ -8,7 +8,7 @@ header ='<!-- Header-->\
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">\
     <ul class="navbar-nav">\
       <li class="nav-item d_none">\
-        <a class="nav-link" href="index.html">UI / UX</a>\
+        <a class="nav-link" href="index.html">PROJECTS</a>\
       </li>\
       <li class="nav-item d_none">\
         <a class="nav-link" href="visual.html">VISUAL</a>\
@@ -21,7 +21,7 @@ header ='<!-- Header-->\
           <a class="nav-link" href="about.html">ABOUT</a>\
         </li>\
         <li>\
-          <a class="nav-link" href="index.html">UI / UX</a>\
+          <a class="nav-link" href="index.html">PROJECTS</a>\
         </li>\
         <li>\
           <a class="nav-link" href="visual.html">VISUAL</a>\
